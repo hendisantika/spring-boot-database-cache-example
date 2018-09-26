@@ -11,5 +11,12 @@
 __List All Employee `GET localhost:8080/listEmployee`__
 
 
+### Screenshot
 
+List All Employee First time from database
 
+![List All Employee First time from database](img/first.png "List All Employee First time from database")
+
+List All Employee First second time from database
+
+![List All Employee First seconde from database](img/second.png "List All Employee second time from database")

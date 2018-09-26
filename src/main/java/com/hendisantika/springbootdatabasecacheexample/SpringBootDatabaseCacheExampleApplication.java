@@ -19,6 +19,7 @@ public class SpringBootDatabaseCacheExampleApplication {
     @Bean
     CommandLineRunner initData(EmployeeRepository repo) {
         return args -> {
+            repo.deleteAll();
             repo.save(new Employee(1L, "Uzumaki Naruto", "Hokage"));
             repo.save(new Employee(2L, "Uchiha Sasuke", "Jounin"));
             repo.save(new Employee(3L, "Haruno Sakura", "Jounin"));
